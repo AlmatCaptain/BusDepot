@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="main" prefHeight="454.0" prefWidth="700.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication2.MenuController">
+   <children>
+      <AnchorPane layoutY="-7.0" prefHeight="114.0" prefWidth="700.0" style="-fx-background-color: #0d2751;">
+         <children>
+            <Label layoutX="41.0" layoutY="29.0" text="BUS DEPOT" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="40.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="logOutB" fitHeight="50.0" fitWidth="35.0" layoutX="623.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../OOjs_UI_icon_logOut-rtl-invert.svg.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="accountL" layoutX="452.0" layoutY="49.0" prefHeight="17.0" prefWidth="170.0" text="Label" textFill="#ffeaea" underline="true">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="outputB" layoutX="23.0" layoutY="121.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="207.0" style="-fx-background-color: #4CAF50;" text="Output of data" textFill="WHITE">
+         <font>
+            <Font name="Yu Gothic Bold" size="21.0" />
+         </font></Button>
+      <Button fx:id="searchB" layoutX="246.0" layoutY="121.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="207.0" style="-fx-background-color: #4CAF50;" text="Data search" textFill="WHITE">
+         <font>
+            <Font name="Yu Gothic Bold" size="21.0" />
+         </font></Button>
+      <Button fx:id="calcB" layoutX="471.0" layoutY="121.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="207.0" style="-fx-background-color: #4CAF50;" text="Calculated field" textFill="WHITE">
+         <font>
+            <Font name="Yu Gothic Bold" size="21.0" />
+         </font></Button>
+      <Button fx:id="sortB" layoutX="23.0" layoutY="285.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="207.0" style="-fx-background-color: #4CAF50;" text="Sort of data" textFill="WHITE">
+         <font>
+            <Font name="Yu Gothic Bold" size="21.0" />
+         </font></Button>
+      <Button fx:id="filterB" layoutX="246.0" layoutY="285.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="207.0" style="-fx-background-color: #4CAF50;" text="Data filter" textFill="WHITE">
+         <font>
+            <Font name="Yu Gothic Bold" size="21.0" />
+         </font></Button>
+      <Button fx:id="triggerB" layoutX="471.0" layoutY="285.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="207.0" style="-fx-background-color: #4CAF50;" text="Triggers" textFill="WHITE">
+         <font>
+            <Font name="Yu Gothic Bold" size="21.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

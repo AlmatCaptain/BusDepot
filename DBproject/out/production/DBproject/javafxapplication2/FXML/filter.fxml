@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="main" prefHeight="544.0" prefWidth="943.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication2.FilterController">
+   <children>
+      <AnchorPane layoutY="-7.0" prefHeight="114.0" prefWidth="943.0" style="-fx-background-color: #0d2751;">
+         <children>
+            <Label layoutX="276.0" layoutY="24.0" text="Filtering by payment" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="40.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="logOutB" fitHeight="50.0" fitWidth="35.0" layoutX="34.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../svg11-512.png" />
+               </image>
+            </ImageView>
+            <ChoiceBox fx:id="cb" layoutX="753.0" layoutY="27.0" prefHeight="26.0" prefWidth="71.0" />
+            <Button fx:id="showB" layoutX="753.0" layoutY="62.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="150.0" text="filter" />
+            <TextField fx:id="num" layoutX="829.0" layoutY="28.0" prefHeight="26.0" prefWidth="71.0" promptText="than" />
+         </children>
+      </AnchorPane>
+      <TableView fx:id="tableview" layoutX="51.0" layoutY="127.0" prefHeight="379.0" prefWidth="841.0" />
+   </children>
+</AnchorPane>
